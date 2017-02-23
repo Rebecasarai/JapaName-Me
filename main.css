@@ -1,0 +1,89 @@
+* { padding: 0; margin: 0; }
+body {
+    font-family: fantasy, Arial, Sans-serif, Helvetica, Verdana;
+    /* background-repeat: no-repeat; */
+}
+
+h1{
+	font-family: asiatico;
+	text-align: center;
+	font-size: 40px;
+	color:#b71f1f;
+
+}
+h3{
+	text-shadow: 1px 1px 1px white;
+}
+
+.header-trad{
+    background-image: url(https://worldstrides.com/wp-content/uploads/2015/07/12-Chureito-pagoda-and-Mount-Fuji-Japan.jpg);
+    /* min-width: 100%; */
+        min-height: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+
+
+#seccion-traductor{
+	margin-bottom: 200px
+}
+.container{
+
+}
+.named{
+	text-shadow: 1px 1px 1px white;
+}
+
+
+#botonjapones {
+	border: none;
+	background: orange;
+	color: #000000;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	font-weight: bold;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+#campo{
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+#botonjapones:hover {
+	transition: all 500ms ease;
+	background: #ffffff;
+	color: #000000;
+	box-shadow: inset 0 0 0 3px orange;
+	font-weight: bold;
+}
+
+.padding{
+	padding-top: 10%;
+}
+
+.centrado{
+	text-align: center;
+}
+
+@media (max-width: 769px){
+
+	.padding{
+		padding-top: 10%;
+	}
+}
+
+@font-face {
+    font-family: asiatico;
+    src: url(Japonesa.ttf);
+}
+
+.logo{
+	margin:  0 auto;
+}
